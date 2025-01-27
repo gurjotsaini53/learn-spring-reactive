@@ -9,6 +9,10 @@ public class Lec08FluxErrorEmpty {
         Flux.empty().subscribe(Util.subscriber());
 
 
+
+
+
+
         Flux.error(new RuntimeException("Error ")).subscribe(Util.subscriber());
     }
 }
